@@ -169,6 +169,37 @@ section {
     margin-bottom: 2em;
 }
 
+.footer-container {
+    background: #6700EE;
+
+    a {
+        color: white;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+
+    .logo {
+        color: #00f7ff;
+        font-weight: bold;
+    }
+
+    ul {
+        display: flex;
+
+        a {
+            // for padding to work properly use display: block
+            display: block; 
+            padding: 0 1em;
+        }
+    }
+}
+
+
+
 @media only screen and (min-width: 800px) {
 
     .featured, .portfolio {

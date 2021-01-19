@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+
+
 </head>
 <body>
     
@@ -16,15 +20,15 @@
                 <ul>
                     <li><a href="#">My work</a></li>
                     <li><a href="#">My skills</a></li>
-                    <li><a href="#">Hire me</a></li>
+                    <li><a href="mailto:ajohnson2389@gmail.com">Hire me</a></li>
                 </ul>
             </nav>
         </header>
         <div class="social-header">
             <ul>
-                <li><a href="#"><img src="images/github.svg" alt="github"></a></li>
-                <li><a href="#"><img src="images/linkedin.svg" alt="linkedin"></a></li>
-                <li><a href="#"><img src="images/twitter.svg" alt="twitter"></a></li>
+                <li><a href="https://github.com/alexanderejohnson" target="_blank"><img src="images/github.svg" alt="github"></a></li>
+                <li><a href="https://www.linkedin.com/in/alexanderedwardjohnson/" target="_blank"><img src="images/linkedin.svg" alt="linkedin"></a></li>
+                <li><a href="https://twitter.com/aj_sizzle" target="_blank"><img src="images/twitter.svg" alt="twitter"></a></li>
             </ul>
         </div>
     </div>
@@ -73,7 +77,10 @@
                 <p class="subtitle">Featured Project</p>
                 <a href="#" class="featured-title">Flash_Chat iOS Application</a>
 
-                <p class="featured-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus repellat quasi dolores nesciunt! Assumenda commodi pariatur ratione, quod aliquid ducimus culpa nam! Consectetur perferendis, dolorum iste repellendus fugiat voluptatem.</p>
+                <p class="featured-desc">Modern messaging app that mimics the look and functionality of the native iOS messaging app. 
+                    Utilizes TableView for the iconic Apple look and functionality of the messages and Cocoapods to use Firebase to store the messages 
+                    and create user accounts and secure them. 
+                </p>
             </div>
         </div>
         <img class="right transition2" src="images/featured-project.png" alt="Featured Project">
@@ -89,21 +96,34 @@
                         <img src="images/icon-apple.svg" alt="Apple Icon">
                     </div>
                     <p class="skill-title">iOS Development</p>
-                    <p class="featured-desc skill-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eveniet repellendus nemo tempore ad veniam quibusdam reiciendis ut necessitatibus debitis officia, accusamus nam id unde iste voluptatum sapiente! Dolor, sapiente.</p>
+                    <p class="featured-desc skill-desc">When it comes to my main focus, this is it. I have dedicated the majority of my time studying
+                        and applying concepts to develop and produce high quality mobile iOS applications. These include SwiftUI, MVC, MVVM, CocoaPods,
+                        TableView, URLSession, JSON parsing, Firebase, UIKit, RESTAPIs, and CoreData just to name a few. iOS is my favorite OS and being 
+                        able to develop natively has allowed me to not only explore career opportunities but to release my own app in the App Store coming 
+                        mid 2021! 
+                    </p>
                 </li>
                 <li class="transition2">
                     <div class="icon-container two">
                         <img src="images/icon-flutter.svg" alt="Flutter Icon">
                     </div>
                     <p class="skill-title">Flutter Development</p>
-                    <p class="featured-desc skill-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eveniet repellendus nemo tempore ad veniam quibusdam reiciendis ut necessitatibus debitis officia, accusamus nam id unde iste voluptatum sapiente! Dolor, sapiente.</p>
+                    <p class="featured-desc skill-desc">My journey into mobile development starts here. I discovered Flutter in early 2020 and have had
+                        a blast developing using the framework. A tool to use the same code base for iOS and Android seemed very powerful and has fast-tracked 
+                        my understanding of mobile development practices. Bloc seems like the go-to for state management and I have committed to that method for 
+                        production. I tend to use Flutter when working with the Andriod SDK but I have used it to manage plist files in iOS builds.
+                    </p>
                 </li>
                 <li class="transition2">
                     <div class="icon-container three">
                         <img src="images/icon-js.svg" alt="JavaScript Icon">
                     </div>
                     <p class="skill-title">Web Development</p>
-                    <p class="featured-desc skill-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eveniet repellendus nemo tempore ad veniam quibusdam reiciendis ut necessitatibus debitis officia, accusamus nam id unde iste voluptatum sapiente! Dolor, sapiente.</p>
+                    <p class="featured-desc skill-desc">I wouldn't be where I am now if it wasn't for taking my first dive into Web Development in 2019. I began with 
+                        learning from Angela Yu from the App Brewery and Brad Traversy through their online tutorials. Building upon this foundation I was able
+                        to secure an internship at a local engineering firm and is where I currently work using Angular for front-end development and the Agile 
+                        production method with Jira for project tracking and Jenkins for build testing.
+                    </p>
                 </li>
             </ul>
         </div>
@@ -147,6 +167,22 @@
         </div>
 
     </section>
+
+    <footer>
+        <div class="footer-content" style="text-align: center;">
+            <button>
+                <h3>Get in Touch</h3>
+            </button>
+            <p> &copy; <script>document.write(new Date().getFullYear())</script></p>
+            <p>Alex Johnson</p>
+            <p>All Rights Reserved</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-github"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js" integrity="sha512-wK2NuxEyN/6s53M8G7c6cRUXvkeV8Uh5duYS06pAdLq4ukc72errSIyyGQGYtzWEzvVGzGSWg8l79e0VkTJYPw==" crossorigin="anonymous"></script>
@@ -198,7 +234,7 @@
             y: 50,
             opacity: 0,
             duration: 1.2,
-            stagger: .6
+            stagger: .3
         });
     </script>
 </body>
